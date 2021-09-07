@@ -31,7 +31,7 @@ mathtext.it : Helvetica Neue:italic
 mathtext.bf : Helvetica Neue:bold
 
 ### AXES
-axes.labelsize      : 8     # fontsize of the x any y labels
+axes.labelsize      : 9     # fontsize of the x any y labels
 axes.linewidth      : 0.35    # edge linewidth
 axes.labelpad       : 2.0
 axes.labelweight    : light
@@ -64,7 +64,7 @@ ytick.minor.pad      : 3      # distance to the minor tick label in points
 ytick.labelsize      : 8 # fontsize of the tick labels
 
 ### Legend
-legend.fontsize      : 8
+legend.fontsize      : 9
 legend.frameon       : False   # whether or not to draw a frame around legend
 legend.handlelength  : 2.5      # the length of legend lines
 
