@@ -31,7 +31,7 @@ mathtext.it : Helvetica Neue:italic
 mathtext.bf : Helvetica Neue:bold
 
 ### AXES
-axes.labelsize      : 9     # fontsize of the x any y labels
+axes.labelsize      : 8     # fontsize of the x any y labels
 axes.linewidth      : 0.35    # edge linewidth
 axes.labelpad       : 2.0
 axes.labelweight    : light
@@ -40,12 +40,16 @@ axes.labelweight    : light
 #axes.ymargin        : 0 
 
 ### LINES
-lines.linewidth     : 1.0
+lines.linewidth     : 0.35
+lines.markeredgewidth: 0.35
 lines.dash_joinstyle : round        # miter|round|bevel
 lines.dash_capstyle : round          # butt|round|projecting
 lines.solid_joinstyle : round       # miter|round|bevel
 lines.solid_capstyle : round        # butt|round|projecting
-lines.markersize    : 5             # default marker size
+lines.markersize    : 2             # default marker size
+
+### ERRORBARS
+errorbar.capsize    : 0
 
 ### TICKS
 # see http://matplotlib.org/api/axis_api.html#matplotlib.axis.Tick
@@ -64,9 +68,9 @@ ytick.minor.pad      : 3      # distance to the minor tick label in points
 ytick.labelsize      : 8 # fontsize of the tick labels
 
 ### Legend
-legend.fontsize      : 9
+legend.fontsize      : 8
 legend.frameon       : False   # whether or not to draw a frame around legend
-legend.handlelength  : 2.5      # the length of legend lines
+legend.handlelength  : 1      # the length of legend lines
 
 ### FIGURE
 # See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
@@ -77,7 +81,7 @@ figure.subplot.right: 0.95
 figure.subplot.top: 0.92
 
 savefig.transparent :  True     # transparent figures
-savefig.dpi         : 72.27     # figure dots per inch
+savefig.dpi         : 300     # figure dots per inch
 savefig.bbox        : tight     # 'tight' or 'standard'.
 savefig.pad_inches  : 0.01       # Padding to be used when bbox is set to 'tight'
 
