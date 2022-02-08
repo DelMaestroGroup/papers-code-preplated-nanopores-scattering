@@ -1,0 +1,123 @@
+# PIMCID: 32363073-f6d3-428a-a335-58d7rcut15g2
+
+# ./pimc.e -u -1.900000000000000e+01 -p 007 -T 1.6 -L 50 -n 0.016 -t 0.004 -b cylinder -M 8 -r 15.51 -I aziz -X plated_lj_tube -E 1000 -S 10000 -l 7 --lj_width=3.76 --lj_sigma=3.0225 --lj_epsilon=36.13613 --lj_density=0.017 --relax -W 167 -C 2.000000000000000e-01 -D 2.758534657605148e-01 -w 15 --label=rcut15g2 -R 32363073-f6d3-428a-a335-58d7rcut15g2 --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --estimator="radial density" --estimator="pair correlation function" --estimator="cylinder energy" --estimator="cylinder number particles" --estimator="cylinder pair correlation function" 
+
+---------- Begin Simulation Parameters ----------
+
+Command String          	:	./pimc.e -u -19.0 -p 007 -T 1.6 -L 50 -n 0.016 -t 0.004 -b cylinder -M 8 -r 15.51 -I aziz -X plated_lj_tube -E 1000 -S 10000 -l 7 --lj_width=3.76 --lj_sigma=3.0225 --lj_epsilon=36.13613 --lj_density=0.017 --relax -W 167 -C 2.000000000000000e-01 -s ./Input/gce-state-01.600-050.000--019.000-0.00400-01cc3a11-9ad0-4cbd-a5da-e97d369ac10f.dat -D 2.758534657605148e-01 --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --estimator="radial density" --estimator="pair correlation function" --estimator="cylinder energy" --estimator="cylinder number particles" --estimator="cylinder pair correlation function" -w 15 --label=rcut15g2 
+Ensemble                	:	grand canonical
+Simulation Type         	:	PIMC
+Action Type             	:	gsf
+Number of paths         	:	1
+Interaction Potential   	:	aziz
+External Potential      	:	plated_lj_tube
+Plating Radial Width    	:	3.76000e+00 
+Plating LJ Sigma        	:	3.02250e+00 
+Plating LJ Epsilon      	:	3.61361e+01 
+Plating LJ Density      	:	1.70000e-02 
+Temperature             	:	1.60000
+Chemical Potential      	:	-19.00000
+Particle Mass           	:	4.00300
+Number Time Slices      	:	156
+Specified Imaginary Time Step	:	0.00400
+Imaginary Time Step     	:	0.00401
+Imaginary Time Length   	:	0.62500
+Initial Number Particles	:	604
+Initial Density         	:	0.01598
+Num. Broken World-lines 	:	0
+Container Type          	:	Cylinder
+Container Dimensions    	:	31.02000 x 31.02000 x 50.00000
+Container Volume        	:	37787.09215
+Lookup Table            	:	4 x 4 x 7
+Maximum Winding Sector  	:	1
+Initial Worm Constant   	:	0.20000
+Worm Constant           	:	0.20000
+Initial CoM Delta       	:	0.27585
+CoM Delta               	:	0.27585
+Bisection Parameter     	:	3
+Update Length           	:	8
+Potential Cutoff Length 	:	7.00000
+Bin Size                	:	100
+Number EQ Steps         	:	1000
+Number Bins Stored      	:	10000
+Random Number Seed      	:	139860
+Virial Window           	:	5
+
+---------- End Simulation Parameters ------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.22566
+
+center of mass               	:	0.45722	(3298416/7214093)
+
+bisection                    	:	0.79542	(110675467/139141349)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00152	(76538/50322162)
+open         Level 2         	:	0.00244	(124225/50837856)
+open         Level 3         	:	0.00251	(257375/102526591)
+open                         	:	0.00225	(458138/203686609)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99420	(76621/77068)
+close        Level 2         	:	0.95308	(124406/130531)
+close        Level 3         	:	0.82150	(257109/312976)
+close                        	:	0.88006	(458136/520575)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00201	(103801/51751254)
+insert       Level 2         	:	0.00131	(67706/51746122)
+insert       Level 3         	:	0.00094	(97705/103504104)
+insert                       	:	0.00130	(269212/207001480)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(103954/103954)
+remove       Level 2         	:	0.99999	(67872/67873)
+remove       Level 3         	:	0.98183	(97388/99190)
+remove                       	:	0.99335	(269214/271017)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.74853	(3013000/4025196)
+advance head Level 2         	:	0.54908	(2209674/4024307)
+advance head Level 3         	:	0.34959	(2816992/8057938)
+advance head                 	:	0.49913	(8039666/16107441)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.74985	(3008692/4012386)
+recede head  Level 2         	:	0.55184	(2210877/4006372)
+recede head  Level 3         	:	0.35269	(2817189/7987817)
+recede head                  	:	0.50209	(8036758/16006575)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.74954	(3010089/4015891)
+advance tail Level 2         	:	0.55206	(2210875/4004807)
+advance tail Level 3         	:	0.35266	(2817203/7988449)
+advance tail                 	:	0.50210	(8038167/16009147)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.74789	(3011210/4026260)
+recede tail  Level 2         	:	0.54885	(2210839/4028101)
+recede tail  Level 3         	:	0.34962	(2815961/8054321)
+recede tail                  	:	0.49899	(8038010/16108682)
+
+swap head                    	:	0.04817	(978008/20303592)
+
+swap tail                    	:	0.04800	(973796/20287767)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           61172	           43275
+number particles                 	:	           61172	           43275
+diagonal fraction                	:	           61172	           61172
+radial density                   	:	           61172	           43275
+pair correlation function        	:	           61172	           43275
+cylinder energy                  	:	           61172	           43275
+cylinder number particles        	:	           61172	           43275
+cylinder pair correlation function	:	          122344	           43275
+
+---------- End Estimator Data ------------------

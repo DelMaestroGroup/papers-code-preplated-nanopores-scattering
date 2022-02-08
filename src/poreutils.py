@@ -11,8 +11,6 @@ from cmaptools import readcpt
 import matplotlib.colors as mpl_colors
 from copy import copy
 
-
-
 π = np.pi
 
 red = '#fe7979'
@@ -25,8 +23,12 @@ purple = '#090076'
 
 pore_colors = {'μ = -7.0 K':lblue,'μ = -19.0 K':green, 'μ = -27.0 K':orange, 'μ = -47.0 K':red}
 pore_labels = {'μ = -7.0 K':'full','μ = -19.0 K':'3 shells', 'μ = -27.0 K':'2 shells', 'μ = -47.0 K':'1 shell'}
-font_path = os.environ['LOCAL_FONT_PATH'] + os.path.sep + 'HelveticaNeue/HelveticaNeue-Light-08.ttf'
-bold_font_path = os.environ['LOCAL_FONT_PATH'] + os.path.sep + 'HelveticaNeue/HelveticaNeue-Bold-02.ttf'
+
+# setup a possible custom font path
+font_path,bold_font_path = '.','.'
+if 'LOCAL_FONT_PATH' in os.environ:
+    font_path = os.environ['LOCAL_FONT_PATH'] + os.path.sep + 'HelveticaNeue/HelveticaNeue-Light-08.ttf'
+    bold_font_path = os.environ['LOCAL_FONT_PATH'] + os.path.sep + 'HelveticaNeue/HelveticaNeue-Bold-02.ttf'
 
 
 # ------------------------------------------------------------------------------\
@@ -44,7 +46,7 @@ def get_masked_palette(cpt_file, over_color='w', under_color='k'):
 
 # -------------------------------------------------------------------------------
 def get_props(c, ls='None'):
-    return {'mec':c, 'ls':ls, 'ecolor':c, 'marker':'o', 'mfc':colortools.get_alpha_hex(c,0.5,real=True), 
+    return {'mec':c, 'ls':ls, 'ecolor':colortools.get_alpha_hex(c,0.5,real=True), 'marker':'o', 'mfc':colortools.get_alpha_hex(c,0.5,real=True), 
             'color':c}
 
 # -------------------------------------------------------------------------------

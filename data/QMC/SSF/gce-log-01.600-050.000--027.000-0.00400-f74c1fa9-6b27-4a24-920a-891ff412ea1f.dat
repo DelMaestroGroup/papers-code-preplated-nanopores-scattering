@@ -1,0 +1,2044 @@
+# PIMCID: f74c1fa9-6b27-4a24-920a-891ff412ea1f
+
+# ./pimc.e -u -2.700000000000000e+01 -p 100 -T 1.6 -L 50 -n 0.016 -t 0.004 -b cylinder -M 8 -r 15.51 -I aziz -X plated_lj_tube -E 1000 -S 1000 -l 7 --lj_width=3.76 --lj_sigma=3.0225 --lj_epsilon=36.13613 --lj_density=0.017 --relax -W 23 -C 2.000000000000000e-01 -D 2.758534657605148e-01 -R f74c1fa9-6b27-4a24-920a-891ff412ea1f --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --estimator="radial density" --estimator="static structure factor gpu" 
+
+---------- Begin Simulation Parameters ----------
+
+Command String          	:	./pimc.e -u -27.0 -p 100 -T 1.6 -L 50 -n 0.016 -t 0.004 -b cylinder -M 8 -r 15.51 -I aziz -X plated_lj_tube -E 1000 -S 1000 -l 7 --lj_width=3.76 --lj_sigma=3.0225 --lj_epsilon=36.13613 --lj_density=0.017 --relax -W 23 -C 2.000000000000000e-01 -s ./Input/gce-state-01.600-050.000--027.000-0.00400-001521bc-b9f9-4433-a95f-1fbbf0b4e47a.dat -D 2.758534657605148e-01 --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --estimator="radial density" --estimator="static structure factor gpu" 
+Ensemble                	:	grand canonical
+Simulation Type         	:	PIMC
+Action Type             	:	gsf
+Number of paths         	:	1
+Interaction Potential   	:	aziz
+External Potential      	:	plated_lj_tube
+Plating Radial Width    	:	3.76000e+00 
+Plating LJ Sigma        	:	3.02250e+00 
+Plating LJ Epsilon      	:	3.61361e+01 
+Plating LJ Density      	:	1.70000e-02 
+Temperature             	:	1.60000
+Chemical Potential      	:	-27.00000
+Particle Mass           	:	4.00300
+Number Time Slices      	:	156
+Specified Imaginary Time Step	:	0.00400
+Imaginary Time Step     	:	0.00401
+Imaginary Time Length   	:	0.62500
+Initial Number Particles	:	604
+Initial Density         	:	0.01598
+Num. Broken World-lines 	:	0
+Container Type          	:	Cylinder
+Container Dimensions    	:	31.02000 x 31.02000 x 50.00000
+Container Volume        	:	37787.09215
+Lookup Table            	:	4 x 4 x 7
+Maximum Winding Sector  	:	1
+Initial Worm Constant   	:	0.20000
+Worm Constant           	:	0.20000
+Initial CoM Delta       	:	0.27585
+CoM Delta               	:	0.27585
+Bisection Parameter     	:	3
+Update Length           	:	8
+Potential Cutoff Length 	:	7.00000
+Bin Size                	:	100
+Number EQ Steps         	:	1000
+Number Bins Stored      	:	1000
+Random Number Seed      	:	139953
+Virial Window           	:	5
+
+---------- End Simulation Parameters ------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30781
+
+center of mass               	:	0.50669	(1050811/2073859)
+
+bisection                    	:	0.81986	(32814861/40025114)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12975/10579269)
+open         Level 2         	:	0.00220	(23542/10679038)
+open         Level 3         	:	0.00278	(59859/21523782)
+open                         	:	0.00225	(96376/42782089)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99708	(12990/13028)
+close        Level 2         	:	0.96620	(23438/24258)
+close        Level 3         	:	0.87580	(59891/68384)
+close                        	:	0.91151	(96319/105670)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00829	(90376/10898202)
+insert       Level 2         	:	0.00716	(78036/10894502)
+insert       Level 3         	:	0.00633	(137979/21803151)
+insert                       	:	0.00703	(306391/43595855)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(90349/90349)
+remove       Level 2         	:	1.00000	(78371/78371)
+remove       Level 3         	:	0.99846	(137728/137941)
+remove                       	:	0.99931	(306448/306661)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83476	(1592518/1907756)
+advance head Level 2         	:	0.69565	(1325994/1906112)
+advance head Level 3         	:	0.53804	(2052075/3813960)
+advance head                 	:	0.65164	(4970587/7627828)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83969	(1590941/1894677)
+recede head  Level 2         	:	0.70386	(1326429/1884496)
+recede head  Level 3         	:	0.54782	(2052702/3747027)
+recede head                  	:	0.66037	(4970072/7526200)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83983	(1592068/1895692)
+advance tail Level 2         	:	0.70325	(1324759/1883780)
+advance tail Level 3         	:	0.54777	(2051042/3744378)
+advance tail                 	:	0.66028	(4967869/7523850)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83526	(1592242/1906294)
+recede tail  Level 2         	:	0.69636	(1327709/1906650)
+recede tail  Level 3         	:	0.53761	(2049807/3812842)
+recede tail                  	:	0.65170	(4969758/7625786)
+
+swap head                    	:	0.02701	(266601/9871638)
+
+swap tail                    	:	0.02676	(264337/9877015)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           16887	            8618
+number particles                 	:	           16887	            8618
+diagonal fraction                	:	           16887	           16887
+radial density                   	:	           16887	            8618
+static structure factor gpu      	:	           16887	            8618
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.31201
+
+center of mass               	:	0.50596	(1041876/2059222)
+
+bisection                    	:	0.81930	(32521377/39694162)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00122	(12476/10230059)
+open         Level 2         	:	0.00224	(23129/10329724)
+open         Level 3         	:	0.00277	(57756/20831470)
+open                         	:	0.00226	(93361/41391253)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99674	(12546/12587)
+close        Level 2         	:	0.96839	(23068/23821)
+close        Level 3         	:	0.87487	(57863/66139)
+close                        	:	0.91155	(93477/102547)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00828	(87314/10542135)
+insert       Level 2         	:	0.00719	(75780/10543561)
+insert       Level 3         	:	0.00638	(134506/21088507)
+insert                       	:	0.00706	(297600/42174203)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87363/87363)
+remove       Level 2         	:	1.00000	(75785/75785)
+remove       Level 3         	:	0.99847	(134335/134541)
+remove                       	:	0.99931	(297483/297689)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83518	(1619409/1938998)
+advance head Level 2         	:	0.69726	(1352611/1939891)
+advance head Level 3         	:	0.53918	(2093814/3883325)
+advance head                 	:	0.65263	(5065834/7762214)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84012	(1621292/1929829)
+recede head  Level 2         	:	0.70495	(1352406/1918441)
+recede head  Level 3         	:	0.54932	(2093628/3811329)
+recede head                  	:	0.66157	(5067326/7659599)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83876	(1617219/1928105)
+advance tail Level 2         	:	0.70299	(1347880/1917358)
+advance tail Level 3         	:	0.54641	(2084218/3814384)
+advance tail                 	:	0.65919	(5049317/7659847)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83479	(1620578/1941304)
+recede tail  Level 2         	:	0.69531	(1348565/1939519)
+recede tail  Level 3         	:	0.53710	(2083043/3878310)
+recede tail                  	:	0.65113	(5052186/7759133)
+
+swap head                    	:	0.02703	(271808/10057616)
+
+swap tail                    	:	0.02704	(271957/10056578)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17737	            8997
+number particles                 	:	           17737	            8997
+diagonal fraction                	:	           17737	           17737
+radial density                   	:	           17737	            8997
+static structure factor gpu      	:	           17737	            8997
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30607
+
+center of mass               	:	0.50686	(1010361/1993375)
+
+bisection                    	:	0.81943	(31439214/38366952)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12550/10235855)
+open         Level 2         	:	0.00222	(22893/10333572)
+open         Level 3         	:	0.00279	(58045/20831268)
+open                         	:	0.00226	(93488/41400695)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99653	(12626/12670)
+close        Level 2         	:	0.96836	(22894/23642)
+close        Level 3         	:	0.87375	(57891/66256)
+close                        	:	0.91072	(93411/102568)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00824	(86902/10542193)
+insert       Level 2         	:	0.00706	(74422/10539493)
+insert       Level 3         	:	0.00628	(132385/21088022)
+insert                       	:	0.00696	(293709/42169708)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87315/87315)
+remove       Level 2         	:	1.00000	(74700/74700)
+remove       Level 3         	:	0.99846	(131771/131974)
+remove                       	:	0.99931	(293786/293989)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83548	(1509893/1807220)
+advance head Level 2         	:	0.69625	(1256769/1805048)
+advance head Level 3         	:	0.53779	(1944345/3615421)
+advance head                 	:	0.65180	(4711007/7227689)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83975	(1510865/1799182)
+recede head  Level 2         	:	0.70347	(1258141/1788472)
+recede head  Level 3         	:	0.54719	(1944097/3552865)
+recede head                  	:	0.66005	(4713103/7140519)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83908	(1508300/1797566)
+advance tail Level 2         	:	0.70320	(1259229/1790709)
+advance tail Level 3         	:	0.54747	(1944786/3552319)
+advance tail                 	:	0.65993	(4712315/7140594)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83495	(1510341/1808891)
+recede tail  Level 2         	:	0.69601	(1257204/1806292)
+recede tail  Level 3         	:	0.53784	(1946159/3618440)
+recede tail                  	:	0.65164	(4713704/7233623)
+
+swap head                    	:	0.02682	(251023/9359062)
+
+swap tail                    	:	0.02699	(252466/9355133)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17143	            8949
+number particles                 	:	           17143	            8949
+diagonal fraction                	:	           17143	           17143
+radial density                   	:	           17143	            8949
+static structure factor gpu      	:	           17143	            8949
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30284
+
+center of mass               	:	0.50651	(989855/1954265)
+
+bisection                    	:	0.81956	(30888687/37689569)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12613/10228510)
+open         Level 2         	:	0.00223	(23011/10326508)
+open         Level 3         	:	0.00280	(58273/20832665)
+open                         	:	0.00227	(93897/41387683)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99716	(12620/12656)
+close        Level 2         	:	0.96838	(23095/23849)
+close        Level 3         	:	0.87333	(58189/66629)
+close                        	:	0.91050	(93904/103134)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00818	(86156/10538332)
+insert       Level 2         	:	0.00709	(74753/10545035)
+insert       Level 3         	:	0.00625	(131715/21083393)
+insert                       	:	0.00694	(292624/42166760)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(86121/86121)
+remove       Level 2         	:	1.00000	(74955/74955)
+remove       Level 3         	:	0.99834	(131541/131760)
+remove                       	:	0.99925	(292617/292836)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83455	(1453902/1742132)
+advance head Level 2         	:	0.69359	(1209765/1744219)
+advance head Level 3         	:	0.53609	(1868653/3485724)
+advance head                 	:	0.65007	(4532320/6972075)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83886	(1450806/1729495)
+recede head  Level 2         	:	0.70257	(1210706/1723245)
+recede head  Level 3         	:	0.54595	(1868036/3421632)
+recede head                  	:	0.65890	(4529548/6874372)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83985	(1455357/1732879)
+advance tail Level 2         	:	0.70321	(1211189/1722374)
+advance tail Level 3         	:	0.54738	(1870527/3417220)
+advance tail                 	:	0.66018	(4537073/6872473)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83472	(1454627/1742649)
+recede tail  Level 2         	:	0.69539	(1210595/1740886)
+recede tail  Level 3         	:	0.53649	(1870113/3485837)
+recede tail                  	:	0.65075	(4535335/6969372)
+
+swap head                    	:	0.02695	(242888/9011230)
+
+swap tail                    	:	0.02687	(241908/9003765)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           16841	            8942
+number particles                 	:	           16841	            8942
+diagonal fraction                	:	           16841	           16841
+radial density                   	:	           16841	            8942
+static structure factor gpu      	:	           16841	            8942
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30664
+
+center of mass               	:	0.50622	(1023805/2022466)
+
+bisection                    	:	0.81956	(31925997/38955006)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00124	(12832/10363661)
+open         Level 2         	:	0.00218	(22824/10466075)
+open         Level 3         	:	0.00279	(58920/21112839)
+open                         	:	0.00225	(94576/41942575)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99612	(12844/12894)
+close        Level 2         	:	0.96689	(23184/23978)
+close        Level 3         	:	0.87460	(58772/67199)
+close                        	:	0.91092	(94800/104071)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00830	(88646/10685803)
+insert       Level 2         	:	0.00720	(76898/10686044)
+insert       Level 3         	:	0.00637	(136045/21365687)
+insert                       	:	0.00706	(301589/42737534)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(88434/88434)
+remove       Level 2         	:	1.00000	(76971/76971)
+remove       Level 3         	:	0.99844	(135960/136173)
+remove                       	:	0.99929	(301365/301578)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83591	(1536036/1837556)
+advance head Level 2         	:	0.69776	(1284144/1840391)
+advance head Level 3         	:	0.53994	(1988358/3682523)
+advance head                 	:	0.65329	(4808538/7360470)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83987	(1538109/1831369)
+recede head  Level 2         	:	0.70489	(1282728/1819764)
+recede head  Level 3         	:	0.54940	(1989286/3620817)
+recede head                  	:	0.66146	(4810123/7271950)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83981	(1539109/1832698)
+advance tail Level 2         	:	0.70351	(1279929/1819349)
+advance tail Level 3         	:	0.54781	(1979775/3613955)
+advance tail                 	:	0.66045	(4798813/7266002)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83472	(1536581/1840832)
+recede tail  Level 2         	:	0.69526	(1279764/1840697)
+recede tail  Level 3         	:	0.53828	(1981172/3680538)
+recede tail                  	:	0.65165	(4797517/7362067)
+
+swap head                    	:	0.02688	(255910/9521162)
+
+swap tail                    	:	0.02694	(256643/9525837)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17407	            9014
+number particles                 	:	           17407	            9014
+diagonal fraction                	:	           17407	           17407
+radial density                   	:	           17407	            9014
+static structure factor gpu      	:	           17407	            9014
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.31211
+
+center of mass               	:	0.50659	(1049810/2072323)
+
+bisection                    	:	0.81964	(32796218/40013138)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00122	(12562/10302785)
+open         Level 2         	:	0.00221	(23066/10415488)
+open         Level 3         	:	0.00277	(58197/20983172)
+open                         	:	0.00225	(93825/41701445)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99699	(12590/12628)
+close        Level 2         	:	0.96821	(23209/23971)
+close        Level 3         	:	0.87512	(57925/66191)
+close                        	:	0.91180	(93724/102790)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00835	(88737/10629405)
+insert       Level 2         	:	0.00719	(76426/10628917)
+insert       Level 3         	:	0.00638	(135616/21253213)
+insert                       	:	0.00708	(300779/42511535)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(88524/88524)
+remove       Level 2         	:	1.00000	(76784/76784)
+remove       Level 3         	:	0.99857	(135572/135766)
+remove                       	:	0.99936	(300880/301074)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83510	(1632376/1954708)
+advance head Level 2         	:	0.69526	(1359611/1955543)
+advance head Level 3         	:	0.53806	(2106330/3914668)
+advance head                 	:	0.65155	(5098317/7824919)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83953	(1633158/1945331)
+recede head  Level 2         	:	0.70342	(1361076/1934927)
+recede head  Level 3         	:	0.54780	(2105261/3843089)
+recede head                  	:	0.66027	(5099495/7723347)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83939	(1634115/1946795)
+advance tail Level 2         	:	0.70324	(1360471/1934586)
+advance tail Level 3         	:	0.54764	(2106089/3845740)
+advance tail                 	:	0.66010	(5100675/7727121)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83516	(1635954/1958842)
+recede tail  Level 2         	:	0.69608	(1361507/1955958)
+recede tail  Level 3         	:	0.53825	(2105202/3911182)
+recede tail                  	:	0.65202	(5102663/7825982)
+
+swap head                    	:	0.02705	(274485/10146025)
+
+swap tail                    	:	0.02700	(273942/10146039)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17881	            8975
+number particles                 	:	           17881	            8975
+diagonal fraction                	:	           17881	           17881
+radial density                   	:	           17881	            8975
+static structure factor gpu      	:	           17881	            8975
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30466
+
+center of mass               	:	0.50659	(998065/1970165)
+
+bisection                    	:	0.81969	(31160732/38015107)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12567/10214285)
+open         Level 2         	:	0.00221	(22835/10317969)
+open         Level 3         	:	0.00277	(57731/20809781)
+open                         	:	0.00225	(93133/41342035)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99572	(12569/12623)
+close        Level 2         	:	0.96686	(22902/23687)
+close        Level 3         	:	0.87791	(57699/65723)
+close                        	:	0.91314	(93170/102033)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00825	(86834/10529102)
+insert       Level 2         	:	0.00720	(75813/10525820)
+insert       Level 3         	:	0.00630	(132783/21066856)
+insert                       	:	0.00701	(295430/42121778)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(86961/86961)
+remove       Level 2         	:	1.00000	(75496/75496)
+remove       Level 3         	:	0.99827	(132936/133166)
+remove                       	:	0.99922	(295393/295623)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83374	(1480757/1776039)
+advance head Level 2         	:	0.69383	(1234211/1778832)
+advance head Level 3         	:	0.53548	(1903484/3554719)
+advance head                 	:	0.64961	(4618452/7109590)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83852	(1481962/1767344)
+recede head  Level 2         	:	0.70150	(1231935/1756135)
+recede head  Level 3         	:	0.54532	(1903071/3489848)
+recede head                  	:	0.65831	(4616968/7013327)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83964	(1482501/1765636)
+advance tail Level 2         	:	0.70401	(1239356/1760419)
+advance tail Level 3         	:	0.54841	(1914169/3490392)
+advance tail                 	:	0.66074	(4636026/7016447)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83476	(1482446/1775895)
+recede tail  Level 2         	:	0.69673	(1238978/1778279)
+recede tail  Level 3         	:	0.53853	(1913719/3553603)
+recede tail                  	:	0.65212	(4635143/7107777)
+
+swap head                    	:	0.02698	(248039/9193734)
+
+swap tail                    	:	0.02678	(246015/9185274)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           16988	            9014
+number particles                 	:	           16988	            9014
+diagonal fraction                	:	           16988	           16988
+radial density                   	:	           16988	            9014
+static structure factor gpu      	:	           16988	            9014
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30963
+
+center of mass               	:	0.50717	(1033107/2037021)
+
+bisection                    	:	0.81995	(32217267/39291772)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12675/10285489)
+open         Level 2         	:	0.00221	(22950/10370684)
+open         Level 3         	:	0.00277	(57997/20933511)
+open                         	:	0.00225	(93622/41589684)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99670	(12686/12728)
+close        Level 2         	:	0.96792	(22897/23656)
+close        Level 3         	:	0.87525	(58086/66365)
+close                        	:	0.91163	(93669/102749)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00832	(88131/10590061)
+insert       Level 2         	:	0.00722	(76444/10590599)
+insert       Level 3         	:	0.00633	(134159/21183442)
+insert                       	:	0.00705	(298734/42364102)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87859/87859)
+remove       Level 2         	:	1.00000	(76045/76045)
+remove       Level 3         	:	0.99830	(134783/135012)
+remove                       	:	0.99923	(298687/298916)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83606	(1581091/1891118)
+advance head Level 2         	:	0.69735	(1317591/1889430)
+advance head Level 3         	:	0.53962	(2041701/3783580)
+advance head                 	:	0.65313	(4940383/7564128)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83998	(1580207/1881235)
+recede head  Level 2         	:	0.70464	(1318903/1871738)
+recede head  Level 3         	:	0.54874	(2040445/3718402)
+recede head                  	:	0.66113	(4939555/7471375)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83910	(1578919/1881678)
+advance tail Level 2         	:	0.70233	(1313903/1870787)
+advance tail Level 3         	:	0.54670	(2031458/3715875)
+advance tail                 	:	0.65935	(4924280/7468340)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83466	(1579975/1892957)
+recede tail  Level 2         	:	0.69519	(1314072/1890232)
+recede tail  Level 3         	:	0.53678	(2031305/3784218)
+recede tail                  	:	0.65086	(4925352/7567407)
+
+swap head                    	:	0.02686	(263119/9796773)
+
+swap tail                    	:	0.02698	(264295/9794808)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17559	            8977
+number particles                 	:	           17559	            8977
+diagonal fraction                	:	           17559	           17559
+radial density                   	:	           17559	            8977
+static structure factor gpu      	:	           17559	            8977
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30383
+
+center of mass               	:	0.50645	(996960/1968519)
+
+bisection                    	:	0.81950	(31141178/38000269)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12592/10252053)
+open         Level 2         	:	0.00223	(23069/10359616)
+open         Level 3         	:	0.00278	(57942/20878403)
+open                         	:	0.00226	(93603/41490072)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99716	(12655/12691)
+close        Level 2         	:	0.96784	(22963/23726)
+close        Level 3         	:	0.87607	(57983/66185)
+close                        	:	0.91227	(93601/102602)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00822	(86853/10564828)
+insert       Level 2         	:	0.00710	(75061/10567636)
+insert       Level 3         	:	0.00630	(133168/21135495)
+insert                       	:	0.00698	(295082/42267959)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(86846/86846)
+remove       Level 2         	:	1.00000	(75231/75231)
+remove       Level 3         	:	0.99846	(133007/133212)
+remove                       	:	0.99931	(295084/295289)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83428	(1473857/1766630)
+advance head Level 2         	:	0.69502	(1228347/1767355)
+advance head Level 3         	:	0.53657	(1895706/3532985)
+advance head                 	:	0.65062	(4597910/7066970)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83951	(1474996/1756981)
+recede head  Level 2         	:	0.70291	(1227228/1745930)
+recede head  Level 3         	:	0.54663	(1896757/3469916)
+recede head                  	:	0.65956	(4598981/6972827)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83933	(1476155/1758734)
+advance tail Level 2         	:	0.70261	(1227901/1747632)
+advance tail Level 3         	:	0.54613	(1894783/3469495)
+advance tail                 	:	0.65925	(4598839/6975861)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83468	(1473710/1765593)
+recede tail  Level 2         	:	0.69502	(1227298/1765852)
+recede tail  Level 3         	:	0.53599	(1895959/3537335)
+recede tail                  	:	0.65032	(4596967/7068780)
+
+swap head                    	:	0.02677	(244680/9139439)
+
+swap tail                    	:	0.02703	(247030/9138687)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           16977	            8946
+number particles                 	:	           16977	            8946
+diagonal fraction                	:	           16977	           16977
+radial density                   	:	           16977	            8946
+static structure factor gpu      	:	           16977	            8946
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30525
+
+center of mass               	:	0.50713	(1011411/1994390)
+
+bisection                    	:	0.81963	(31423601/38338964)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00124	(12760/10281852)
+open         Level 2         	:	0.00222	(23014/10386703)
+open         Level 3         	:	0.00278	(58260/20938099)
+open                         	:	0.00226	(94034/41606654)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99641	(12772/12818)
+close        Level 2         	:	0.96565	(22880/23694)
+close        Level 3         	:	0.87776	(58343/66468)
+close                        	:	0.91275	(93995/102980)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00826	(87552/10597627)
+insert       Level 2         	:	0.00715	(75785/10601225)
+insert       Level 3         	:	0.00633	(134226/21199837)
+insert                       	:	0.00702	(297563/42398689)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87597/87597)
+remove       Level 2         	:	1.00000	(75712/75712)
+remove       Level 3         	:	0.99844	(134293/134503)
+remove                       	:	0.99929	(297602/297812)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83478	(1498723/1795342)
+advance head Level 2         	:	0.69544	(1250877/1798695)
+advance head Level 3         	:	0.53795	(1933022/3593296)
+advance head                 	:	0.65151	(4682622/7187333)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83971	(1499381/1785600)
+recede head  Level 2         	:	0.70453	(1253751/1779554)
+recede head  Level 3         	:	0.54812	(1932251/3525206)
+recede head                  	:	0.66081	(4685383/7090360)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84033	(1501934/1787313)
+advance tail Level 2         	:	0.70488	(1251684/1775748)
+advance tail Level 3         	:	0.54936	(1938254/3528192)
+advance tail                 	:	0.66164	(4691872/7091253)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83605	(1502531/1797183)
+recede tail  Level 2         	:	0.69721	(1253834/1798362)
+recede tail  Level 3         	:	0.53908	(1937569/3594227)
+recede tail                  	:	0.65286	(4693934/7189772)
+
+swap head                    	:	0.02680	(249060/9294128)
+
+swap tail                    	:	0.02668	(248066/9296610)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17137	            8994
+number particles                 	:	           17137	            8994
+diagonal fraction                	:	           17137	           17137
+radial density                   	:	           17137	            8994
+static structure factor gpu      	:	           17137	            8994
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.31135
+
+center of mass               	:	0.50709	(1039360/2049638)
+
+bisection                    	:	0.81974	(32447125/39582033)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00122	(12555/10261711)
+open         Level 2         	:	0.00221	(22934/10372662)
+open         Level 3         	:	0.00278	(58028/20891277)
+open                         	:	0.00225	(93517/41525650)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99736	(12486/12519)
+close        Level 2         	:	0.96844	(23076/23828)
+close        Level 3         	:	0.87718	(57936/66048)
+close                        	:	0.91311	(93498/102395)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00832	(88004/10578228)
+insert       Level 2         	:	0.00721	(76244/10574875)
+insert       Level 3         	:	0.00637	(134719/21149442)
+insert                       	:	0.00707	(298967/42302545)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87735/87735)
+remove       Level 2         	:	1.00000	(76293/76293)
+remove       Level 3         	:	0.99851	(134958/135160)
+remove                       	:	0.99932	(298986/299188)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83640	(1609685/1924537)
+advance head Level 2         	:	0.69753	(1340247/1921426)
+advance head Level 3         	:	0.54019	(2078908/3848459)
+advance head                 	:	0.65357	(5028840/7694422)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84100	(1606221/1909899)
+recede head  Level 2         	:	0.70502	(1340417/1901234)
+recede head  Level 3         	:	0.54995	(2078655/3779700)
+recede head                  	:	0.66202	(5025293/7590833)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84105	(1608356/1912320)
+advance tail Level 2         	:	0.70531	(1342704/1903711)
+advance tail Level 3         	:	0.54968	(2076018/3776763)
+advance tail                 	:	0.66209	(5027078/7592794)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83573	(1607009/1922877)
+recede tail  Level 2         	:	0.69697	(1341008/1924049)
+recede tail  Level 3         	:	0.53973	(2076568/3847407)
+recede tail                  	:	0.65302	(5024585/7694333)
+
+swap head                    	:	0.02681	(267134/9965315)
+
+swap tail                    	:	0.02692	(268416/9969168)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17689	            9011
+number particles                 	:	           17689	            9011
+diagonal fraction                	:	           17689	           17689
+radial density                   	:	           17689	            9011
+static structure factor gpu      	:	           17689	            9011
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.31281
+
+center of mass               	:	0.50741	(1063762/2096440)
+
+bisection                    	:	0.81985	(33152895/40437856)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00124	(12902/10425849)
+open         Level 2         	:	0.00220	(23189/10530442)
+open         Level 3         	:	0.00277	(58925/21235973)
+open                         	:	0.00225	(95016/42192264)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99636	(12864/12911)
+close        Level 2         	:	0.96650	(23342/24151)
+close        Level 3         	:	0.87623	(58858/67172)
+close                        	:	0.91202	(95064/104234)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00839	(90062/10739155)
+insert       Level 2         	:	0.00733	(78718/10741429)
+insert       Level 3         	:	0.00647	(138930/21487717)
+insert                       	:	0.00716	(307710/42968301)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(90307/90307)
+remove       Level 2         	:	1.00000	(78667/78667)
+remove       Level 3         	:	0.99854	(138688/138891)
+remove                       	:	0.99934	(307662/307865)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83765	(1654236/1974854)
+advance head Level 2         	:	0.70037	(1382962/1974626)
+advance head Level 3         	:	0.54402	(2149816/3951706)
+advance head                 	:	0.65649	(5187014/7901186)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84189	(1654090/1964744)
+recede head  Level 2         	:	0.70819	(1385856/1956894)
+recede head  Level 3         	:	0.55346	(2148695/3882263)
+recede head                  	:	0.66488	(5188641/7803901)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84185	(1656773/1968015)
+advance tail Level 2         	:	0.70759	(1383827/1955701)
+advance tail Level 3         	:	0.55248	(2143976/3880616)
+advance tail                 	:	0.66432	(5184576/7804332)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83787	(1654691/1974872)
+recede tail  Level 2         	:	0.70005	(1383555/1976363)
+recede tail  Level 3         	:	0.54336	(2145630/3948809)
+recede tail                  	:	0.65618	(5183876/7900044)
+
+swap head                    	:	0.02625	(268850/10240655)
+
+swap tail                    	:	0.02640	(270411/10243200)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           18071	            9058
+number particles                 	:	           18071	            9058
+diagonal fraction                	:	           18071	           18071
+radial density                   	:	           18071	            9058
+static structure factor gpu      	:	           18071	            9058
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.31036
+
+center of mass               	:	0.50718	(1036937/2044524)
+
+bisection                    	:	0.81977	(32279336/39376162)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12669/10272927)
+open         Level 2         	:	0.00221	(22890/10371389)
+open         Level 3         	:	0.00279	(58287/20917917)
+open                         	:	0.00226	(93846/41562233)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99602	(12512/12562)
+close        Level 2         	:	0.96723	(22937/23714)
+close        Level 3         	:	0.87339	(58379/66842)
+close                        	:	0.90991	(93828/103118)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00824	(87236/10582098)
+insert       Level 2         	:	0.00718	(76087/10590456)
+insert       Level 3         	:	0.00637	(134849/21169736)
+insert                       	:	0.00704	(298172/42342290)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87349/87349)
+remove       Level 2         	:	1.00000	(76545/76545)
+remove       Level 3         	:	0.99851	(134296/134496)
+remove                       	:	0.99933	(298190/298390)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83716	(1590643/1900040)
+advance head Level 2         	:	0.69851	(1328698/1902196)
+advance head Level 3         	:	0.54113	(2056849/3801000)
+advance head                 	:	0.65448	(4976190/7603236)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84182	(1591019/1889980)
+recede head  Level 2         	:	0.70628	(1327781/1879951)
+recede head  Level 3         	:	0.55096	(2058436/3736058)
+recede head                  	:	0.66310	(4977236/7505989)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84086	(1588593/1889259)
+advance tail Level 2         	:	0.70507	(1324677/1878781)
+advance tail Level 3         	:	0.54937	(2049993/3731557)
+advance tail                 	:	0.66180	(4963263/7499597)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83601	(1586935/1898225)
+recede tail  Level 2         	:	0.69755	(1326912/1902250)
+recede tail  Level 3         	:	0.53978	(2050103/3798060)
+recede tail                  	:	0.65328	(4963950/7598535)
+
+swap head                    	:	0.02658	(261621/9842840)
+
+swap tail                    	:	0.02679	(263731/9845717)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17594	            8998
+number particles                 	:	           17594	            8998
+diagonal fraction                	:	           17594	           17594
+radial density                   	:	           17594	            8998
+static structure factor gpu      	:	           17594	            8998
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30871
+
+center of mass               	:	0.50634	(1021756/2017917)
+
+bisection                    	:	0.81942	(31895598/38924773)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00122	(12495/10230259)
+open         Level 2         	:	0.00221	(22784/10329554)
+open         Level 3         	:	0.00277	(57784/20836975)
+open                         	:	0.00225	(93063/41396788)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99606	(12393/12442)
+close        Level 2         	:	0.96834	(23033/23786)
+close        Level 3         	:	0.87373	(57758/66105)
+close                        	:	0.91060	(93184/102333)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00823	(86865/10552019)
+insert       Level 2         	:	0.00715	(75355/10546212)
+insert       Level 3         	:	0.00634	(133715/21095613)
+insert                       	:	0.00701	(295935/42193844)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(86958/86958)
+remove       Level 2         	:	1.00000	(75242/75242)
+remove       Level 3         	:	0.99848	(133614/133817)
+remove                       	:	0.99931	(295814/296017)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83561	(1556811/1863087)
+advance head Level 2         	:	0.69701	(1300212/1865413)
+advance head Level 3         	:	0.53876	(2009672/3730209)
+advance head                 	:	0.65248	(4866695/7458709)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84048	(1556460/1851864)
+recede head  Level 2         	:	0.70431	(1297790/1842634)
+recede head  Level 3         	:	0.54949	(2012755/3662961)
+recede head                  	:	0.66151	(4867005/7357459)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84031	(1558241/1854367)
+advance tail Level 2         	:	0.70360	(1296437/1842567)
+advance tail Level 3         	:	0.54837	(2008302/3662287)
+advance tail                 	:	0.66080	(4862980/7359221)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83575	(1557808/1863956)
+recede tail  Level 2         	:	0.69655	(1298803/1864623)
+recede tail  Level 3         	:	0.53864	(2008272/3728429)
+recede tail                  	:	0.65239	(4864883/7457008)
+
+swap head                    	:	0.02700	(260680/9655042)
+
+swap tail                    	:	0.02679	(258617/9654481)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17396	            8950
+number particles                 	:	           17396	            8950
+diagonal fraction                	:	           17396	           17396
+radial density                   	:	           17396	            8950
+static structure factor gpu      	:	           17396	            8950
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30753
+
+center of mass               	:	0.50641	(1024649/2023346)
+
+bisection                    	:	0.81942	(31917609/38951468)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00124	(12774/10314076)
+open         Level 2         	:	0.00223	(23172/10412451)
+open         Level 3         	:	0.00277	(58189/21016875)
+open                         	:	0.00226	(94135/41743402)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99688	(12766/12806)
+close        Level 2         	:	0.97031	(23174/23883)
+close        Level 3         	:	0.87627	(58100/66304)
+close                        	:	0.91307	(94040/102993)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00829	(88166/10636237)
+insert       Level 2         	:	0.00716	(76051/10625350)
+insert       Level 3         	:	0.00634	(134660/21254928)
+insert                       	:	0.00703	(298877/42516515)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(88300/88300)
+remove       Level 2         	:	1.00000	(75895/75895)
+remove       Level 3         	:	0.99839	(134777/134994)
+remove                       	:	0.99927	(298972/299189)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83548	(1547672/1852439)
+advance head Level 2         	:	0.69719	(1290689/1851280)
+advance head Level 3         	:	0.53978	(1997488/3700548)
+advance head                 	:	0.65312	(4835849/7404267)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84057	(1545860/1839063)
+recede head  Level 2         	:	0.70495	(1290249/1830262)
+recede head  Level 3         	:	0.54905	(1997305/3637739)
+recede head                  	:	0.66147	(4833414/7307064)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84054	(1548989/1842857)
+advance tail Level 2         	:	0.70474	(1289964/1830412)
+advance tail Level 3         	:	0.54981	(1998594/3635063)
+advance tail                 	:	0.66192	(4837547/7308332)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83544	(1545107/1849450)
+recede tail  Level 2         	:	0.69701	(1291185/1852465)
+recede tail  Level 3         	:	0.53940	(1997877/3703858)
+recede tail                  	:	0.65276	(4834169/7405773)
+
+swap head                    	:	0.02663	(255130/9579608)
+
+swap tail                    	:	0.02663	(255250/9585473)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17408	            8973
+number particles                 	:	           17408	            8973
+diagonal fraction                	:	           17408	           17408
+radial density                   	:	           17408	            8973
+static structure factor gpu      	:	           17408	            8973
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30754
+
+center of mass               	:	0.50685	(1012852/1998323)
+
+bisection                    	:	0.81975	(31626804/38580979)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00124	(12661/10213958)
+open         Level 2         	:	0.00224	(23151/10320362)
+open         Level 3         	:	0.00279	(58024/20800104)
+open                         	:	0.00227	(93836/41334424)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99669	(12666/12708)
+close        Level 2         	:	0.96775	(23047/23815)
+close        Level 3         	:	0.87409	(57959/66308)
+close                        	:	0.91093	(93672/102831)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00830	(87403/10528037)
+insert       Level 2         	:	0.00718	(75590/10525519)
+insert       Level 3         	:	0.00633	(133339/21065853)
+insert                       	:	0.00704	(296332/42119409)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87270/87270)
+remove       Level 2         	:	1.00000	(75603/75603)
+remove       Level 3         	:	0.99839	(133623/133838)
+remove                       	:	0.99928	(296496/296711)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83601	(1533222/1833968)
+advance head Level 2         	:	0.69723	(1277958/1832917)
+advance head Level 3         	:	0.53988	(1978598/3664900)
+advance head                 	:	0.65329	(4789778/7331785)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84080	(1532177/1822278)
+recede head  Level 2         	:	0.70500	(1278631/1813653)
+recede head  Level 3         	:	0.54927	(1978927/3602850)
+recede head                  	:	0.66168	(4789735/7238781)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83948	(1528895/1821235)
+advance tail Level 2         	:	0.70326	(1275521/1813715)
+advance tail Level 3         	:	0.54758	(1971177/3599771)
+advance tail                 	:	0.66009	(4775593/7234721)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83596	(1533729/1834696)
+recede tail  Level 2         	:	0.69569	(1274596/1832128)
+recede tail  Level 3         	:	0.53757	(1970647/3665855)
+recede tail                  	:	0.65174	(4778972/7332679)
+
+swap head                    	:	0.02694	(255662/9489526)
+
+swap tail                    	:	0.02693	(255375/9484195)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17241	            8985
+number particles                 	:	           17241	            8985
+diagonal fraction                	:	           17241	           17241
+radial density                   	:	           17241	            8985
+static structure factor gpu      	:	           17241	            8985
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30689
+
+center of mass               	:	0.50631	(1012682/2000130)
+
+bisection                    	:	0.81958	(31651293/38619124)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00122	(12536/10259899)
+open         Level 2         	:	0.00223	(23105/10367560)
+open         Level 3         	:	0.00277	(57918/20898213)
+open                         	:	0.00225	(93559/41525672)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99825	(12576/12598)
+close        Level 2         	:	0.96917	(23009/23741)
+close        Level 3         	:	0.87498	(57970/66253)
+close                        	:	0.91191	(93555/102592)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00829	(87662/10580771)
+insert       Level 2         	:	0.00717	(75832/10577658)
+insert       Level 3         	:	0.00637	(134653/21151594)
+insert                       	:	0.00705	(298147/42310023)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(88062/88062)
+remove       Level 2         	:	1.00000	(75731/75731)
+remove       Level 3         	:	0.99845	(134358/134566)
+remove                       	:	0.99930	(298151/298359)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83543	(1526157/1826790)
+advance head Level 2         	:	0.69793	(1275740/1827892)
+advance head Level 3         	:	0.53953	(1971441/3653966)
+advance head                 	:	0.65311	(4773338/7308648)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84040	(1528868/1819219)
+recede head  Level 2         	:	0.70432	(1272382/1806537)
+recede head  Level 3         	:	0.54971	(1972117/3587540)
+recede head                  	:	0.66175	(4773367/7213296)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83984	(1527005/1818204)
+advance tail Level 2         	:	0.70342	(1271800/1808017)
+advance tail Level 3         	:	0.54836	(1967395/3587791)
+advance tail                 	:	0.66069	(4766200/7214012)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83532	(1526376/1827294)
+recede tail  Level 2         	:	0.69614	(1272378/1827765)
+recede tail  Level 3         	:	0.53801	(1967099/3656262)
+recede tail                  	:	0.65185	(4765853/7311321)
+
+swap head                    	:	0.02682	(253592/9454972)
+
+swap tail                    	:	0.02691	(254398/9454805)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17257	            9004
+number particles                 	:	           17257	            9004
+diagonal fraction                	:	           17257	           17257
+radial density                   	:	           17257	            9004
+static structure factor gpu      	:	           17257	            9004
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30481
+
+center of mass               	:	0.50684	(1015629/2003855)
+
+bisection                    	:	0.81974	(31631079/38586628)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12753/10386263)
+open         Level 2         	:	0.00220	(23044/10492021)
+open         Level 3         	:	0.00277	(58678/21145745)
+open                         	:	0.00225	(94475/42024029)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99737	(12883/12917)
+close        Level 2         	:	0.96621	(22961/23764)
+close        Level 3         	:	0.87662	(58543/66783)
+close                        	:	0.91227	(94387/103464)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00831	(88928/10702426)
+insert       Level 2         	:	0.00725	(77677/10713022)
+insert       Level 3         	:	0.00640	(137076/21410973)
+insert                       	:	0.00709	(303681/42826421)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(89178/89178)
+remove       Level 2         	:	1.00000	(77378/77378)
+remove       Level 3         	:	0.99835	(137213/137440)
+remove                       	:	0.99925	(303769/303996)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83590	(1507961/1804001)
+advance head Level 2         	:	0.69680	(1256656/1803460)
+advance head Level 3         	:	0.53959	(1943382/3601599)
+advance head                 	:	0.65307	(4707999/7209060)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84080	(1504029/1788817)
+recede head  Level 2         	:	0.70498	(1254218/1779073)
+recede head  Level 3         	:	0.55096	(1947446/3534649)
+recede head                  	:	0.66254	(4705693/7102539)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84091	(1504062/1788608)
+advance tail Level 2         	:	0.70568	(1256949/1781187)
+advance tail Level 3         	:	0.55000	(1943542/3533681)
+advance tail                 	:	0.66229	(4704553/7103476)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83611	(1507932/1803499)
+recede tail  Level 2         	:	0.69751	(1256868/1801937)
+recede tail  Level 3         	:	0.53991	(1943957/3600507)
+recede tail                  	:	0.65345	(4708757/7205943)
+
+swap head                    	:	0.02652	(247169/9319117)
+
+swap tail                    	:	0.02657	(247556/9317884)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17247	            9015
+number particles                 	:	           17247	            9015
+diagonal fraction                	:	           17247	           17247
+radial density                   	:	           17247	            9015
+static structure factor gpu      	:	           17247	            9015
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30650
+
+center of mass               	:	0.50720	(1011949/1995168)
+
+bisection                    	:	0.81958	(31522730/38462113)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00124	(12739/10237296)
+open         Level 2         	:	0.00221	(22823/10336957)
+open         Level 3         	:	0.00280	(58285/20838715)
+open                         	:	0.00227	(93847/41412968)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99676	(12631/12672)
+close        Level 2         	:	0.96341	(22989/23862)
+close        Level 3         	:	0.87470	(58233/66575)
+close                        	:	0.91023	(93853/103109)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00819	(86382/10544831)
+insert       Level 2         	:	0.00719	(75824/10543899)
+insert       Level 3         	:	0.00630	(132892/21094649)
+insert                       	:	0.00700	(295098/42183379)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(86516/86516)
+remove       Level 2         	:	1.00000	(75562/75562)
+remove       Level 3         	:	0.99851	(133013/133212)
+remove                       	:	0.99933	(295091/295290)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83561	(1520599/1819741)
+advance head Level 2         	:	0.69622	(1266005/1818394)
+advance head Level 3         	:	0.53743	(1953688/3635228)
+advance head                 	:	0.65173	(4740292/7273363)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84038	(1519451/1808047)
+recede head  Level 2         	:	0.70378	(1265157/1797655)
+recede head  Level 3         	:	0.54782	(1954949/3568573)
+recede head                  	:	0.66063	(4739557/7174275)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83958	(1516576/1806344)
+advance tail Level 2         	:	0.70246	(1262909/1797845)
+advance tail Level 3         	:	0.54694	(1952895/3570551)
+advance tail                 	:	0.65959	(4732380/7174740)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83489	(1516988/1816984)
+recede tail  Level 2         	:	0.69545	(1264021/1817561)
+recede tail  Level 3         	:	0.53709	(1952642/3635607)
+recede tail                  	:	0.65111	(4733651/7270152)
+
+swap head                    	:	0.02692	(253162/9403748)
+
+swap tail                    	:	0.02678	(251776/9401610)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17185	            8962
+number particles                 	:	           17185	            8962
+diagonal fraction                	:	           17185	           17185
+radial density                   	:	           17185	            8962
+static structure factor gpu      	:	           17185	            8962
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30704
+
+center of mass               	:	0.50657	(1009351/1992518)
+
+bisection                    	:	0.81965	(31420269/38333791)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12500/10151295)
+open         Level 2         	:	0.00223	(22893/10254267)
+open         Level 3         	:	0.00280	(57851/20672161)
+open                         	:	0.00227	(93244/41077723)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99738	(12568/12601)
+close        Level 2         	:	0.96669	(22785/23570)
+close        Level 3         	:	0.87265	(57873/66319)
+close                        	:	0.90961	(93226/102490)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00826	(86417/10461894)
+insert       Level 2         	:	0.00707	(74029/10466491)
+insert       Level 3         	:	0.00627	(131168/20923404)
+insert                       	:	0.00697	(291614/41851789)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(86244/86244)
+remove       Level 2         	:	1.00000	(74374/74374)
+remove       Level 3         	:	0.99821	(131014/131249)
+remove                       	:	0.99919	(291632/291867)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83380	(1519578/1822474)
+advance head Level 2         	:	0.69285	(1262527/1822222)
+advance head Level 3         	:	0.53396	(1946490/3645369)
+advance head                 	:	0.64864	(4728595/7290065)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83822	(1519059/1812246)
+recede head  Level 2         	:	0.70080	(1263002/1802218)
+recede head  Level 3         	:	0.54430	(1947335/3577708)
+recede head                  	:	0.65758	(4729396/7192172)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83841	(1519041/1811818)
+advance tail Level 2         	:	0.70222	(1264928/1801339)
+advance tail Level 3         	:	0.54552	(1954064/3582034)
+advance tail                 	:	0.65850	(4738033/7195191)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83448	(1520455/1822040)
+recede tail  Level 2         	:	0.69479	(1266130/1822309)
+recede tail  Level 3         	:	0.53639	(1953181/3641312)
+recede tail                  	:	0.65056	(4739766/7285661)
+
+swap head                    	:	0.02718	(256344/9430199)
+
+swap tail                    	:	0.02718	(256275/9427281)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17132	            8943
+number particles                 	:	           17132	            8943
+diagonal fraction                	:	           17132	           17132
+radial density                   	:	           17132	            8943
+static structure factor gpu      	:	           17132	            8943
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30248
+
+center of mass               	:	0.50725	(993951/1959494)
+
+bisection                    	:	0.81961	(30856757/37648071)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12584/10242050)
+open         Level 2         	:	0.00223	(23058/10343171)
+open         Level 3         	:	0.00279	(58264/20849307)
+open                         	:	0.00227	(93906/41434528)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99643	(12556/12601)
+close        Level 2         	:	0.96662	(23076/23873)
+close        Level 3         	:	0.87735	(58290/66439)
+close                        	:	0.91263	(93922/102913)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00827	(87255/10555915)
+insert       Level 2         	:	0.00708	(74673/10551548)
+insert       Level 3         	:	0.00629	(132743/21107419)
+insert                       	:	0.00698	(294671/42214882)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87039/87039)
+remove       Level 2         	:	1.00000	(75130/75130)
+remove       Level 3         	:	0.99846	(132486/132691)
+remove                       	:	0.99930	(294655/294860)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83474	(1449245/1736170)
+advance head Level 2         	:	0.69462	(1205770/1735861)
+advance head Level 3         	:	0.53650	(1865796/3477750)
+advance head                 	:	0.65050	(4520811/6949781)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83930	(1449493/1727036)
+recede head  Level 2         	:	0.70276	(1207868/1718751)
+recede head  Level 3         	:	0.54660	(1863734/3409667)
+recede head                  	:	0.65949	(4521095/6855454)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.83879	(1448207/1726546)
+advance tail Level 2         	:	0.70199	(1205154/1716769)
+advance tail Level 3         	:	0.54614	(1862772/3410797)
+advance tail                 	:	0.65889	(4516133/6854112)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83401	(1449720/1738257)
+recede tail  Level 2         	:	0.69335	(1205000/1737940)
+recede tail  Level 3         	:	0.53554	(1861737/3476395)
+recede tail                  	:	0.64961	(4516457/6952592)
+
+swap head                    	:	0.02695	(241945/8978580)
+
+swap tail                    	:	0.02709	(243232/8978820)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           16829	            8979
+number particles                 	:	           16829	            8979
+diagonal fraction                	:	           16829	           16829
+radial density                   	:	           16829	            8979
+static structure factor gpu      	:	           16829	            8979
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30716
+
+center of mass               	:	0.50702	(1027928/2027374)
+
+bisection                    	:	0.81957	(32059836/39117802)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12793/10393094)
+open         Level 2         	:	0.00222	(23325/10499497)
+open         Level 3         	:	0.00276	(58380/21173014)
+open                         	:	0.00225	(94498/42065605)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99696	(12810/12849)
+close        Level 2         	:	0.96797	(23360/24133)
+close        Level 3         	:	0.87366	(58470/66925)
+close                        	:	0.91081	(94640/103907)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00833	(89278/10716568)
+insert       Level 2         	:	0.00722	(77314/10709259)
+insert       Level 3         	:	0.00637	(136412/21424092)
+insert                       	:	0.00707	(303004/42849919)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(89422/89422)
+remove       Level 2         	:	1.00000	(76889/76889)
+remove       Level 3         	:	0.99843	(136551/136766)
+remove                       	:	0.99929	(302862/303077)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83587	(1545569/1849049)
+advance head Level 2         	:	0.69832	(1292833/1851344)
+advance head Level 3         	:	0.54038	(1999609/3700383)
+advance head                 	:	0.65372	(4838011/7400776)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84067	(1545622/1838554)
+recede head  Level 2         	:	0.70632	(1291255/1828157)
+recede head  Level 3         	:	0.55074	(2000280/3631964)
+recede head                  	:	0.66274	(4837157/7298675)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84139	(1547352/1839052)
+advance tail Level 2         	:	0.70646	(1292576/1829659)
+advance tail Level 3         	:	0.55193	(2006266/3635003)
+advance tail                 	:	0.66352	(4846194/7303714)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83743	(1549949/1850840)
+recede tail  Level 2         	:	0.69895	(1292460/1849147)
+recede tail  Level 3         	:	0.54207	(2005203/3699182)
+recede tail                  	:	0.65516	(4847612/7399169)
+
+swap head                    	:	0.02644	(253156/9575228)
+
+swap tail                    	:	0.02661	(254748/9573731)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17475	            9034
+number particles                 	:	           17475	            9034
+diagonal fraction                	:	           17475	           17475
+radial density                   	:	           17475	            9034
+static structure factor gpu      	:	           17475	            9034
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30896
+
+center of mass               	:	0.50693	(1025406/2022759)
+
+bisection                    	:	0.81973	(31997481/39034331)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00124	(12707/10267663)
+open         Level 2         	:	0.00221	(22860/10365145)
+open         Level 3         	:	0.00277	(57880/20896997)
+open                         	:	0.00225	(93447/41529805)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99650	(12545/12589)
+close        Level 2         	:	0.97056	(22982/23679)
+close        Level 3         	:	0.87664	(57890/66036)
+close                        	:	0.91313	(93417/102304)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00832	(88061/10581896)
+insert       Level 2         	:	0.00720	(76176/10580941)
+insert       Level 3         	:	0.00638	(134887/21157118)
+insert                       	:	0.00707	(299124/42319955)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(88089/88089)
+remove       Level 2         	:	1.00000	(76085/76085)
+remove       Level 3         	:	0.99856	(134980/135175)
+remove                       	:	0.99935	(299154/299349)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83637	(1561839/1867404)
+advance head Level 2         	:	0.69783	(1303694/1868200)
+advance head Level 3         	:	0.54034	(2020625/3739575)
+advance head                 	:	0.65365	(4886158/7475179)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84047	(1562738/1859363)
+recede head  Level 2         	:	0.70603	(1305094/1848498)
+recede head  Level 3         	:	0.55058	(2020732/3670208)
+recede head                  	:	0.66258	(4888564/7378069)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84066	(1560628/1856427)
+advance tail Level 2         	:	0.70569	(1304237/1848166)
+advance tail Level 3         	:	0.55018	(2020822/3673031)
+advance tail                 	:	0.66223	(4885687/7377624)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83593	(1562135/1868743)
+recede tail  Level 2         	:	0.69773	(1304847/1870124)
+recede tail  Level 3         	:	0.54043	(2020674/3739046)
+recede tail                  	:	0.65361	(4887656/7477913)
+
+swap head                    	:	0.02659	(257141/9672214)
+
+swap tail                    	:	0.02673	(258598/9675692)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17444	            9007
+number particles                 	:	           17444	            9007
+diagonal fraction                	:	           17444	           17444
+radial density                   	:	           17444	            9007
+static structure factor gpu      	:	           17444	            9007
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30303
+
+center of mass               	:	0.50684	(999124/1971293)
+
+bisection                    	:	0.81959	(31122233/37972722)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00122	(12611/10317254)
+open         Level 2         	:	0.00220	(22897/10426326)
+open         Level 3         	:	0.00276	(57925/21007901)
+open                         	:	0.00224	(93433/41751481)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99795	(12642/12668)
+close        Level 2         	:	0.96698	(23132/23922)
+close        Level 3         	:	0.87706	(57784/65884)
+close                        	:	0.91299	(93558/102474)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00827	(87893/10629945)
+insert       Level 2         	:	0.00720	(76546/10632838)
+insert       Level 3         	:	0.00634	(134825/21262453)
+insert                       	:	0.00704	(299264/42525236)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(88097/88097)
+remove       Level 2         	:	1.00000	(76330/76330)
+remove       Level 3         	:	0.99854	(134712/134909)
+remove                       	:	0.99934	(299139/299336)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83624	(1467110/1754421)
+advance head Level 2         	:	0.69637	(1222503/1755537)
+advance head Level 3         	:	0.53958	(1892007/3506430)
+advance head                 	:	0.65299	(4581620/7016388)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84016	(1465723/1744573)
+recede head  Level 2         	:	0.70463	(1222736/1735298)
+recede head  Level 3         	:	0.54938	(1892744/3445245)
+recede head                  	:	0.66153	(4581203/6925116)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84044	(1465161/1743328)
+advance tail Level 2         	:	0.70471	(1221759/1733706)
+advance tail Level 3         	:	0.54934	(1891024/3442344)
+advance tail                 	:	0.66161	(4577944/6919378)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83568	(1466894/1755320)
+recede tail  Level 2         	:	0.69620	(1221822/1754995)
+recede tail  Level 3         	:	0.53906	(1890975/3507939)
+recede tail                  	:	0.65254	(4579691/7018254)
+
+swap head                    	:	0.02673	(242479/9071424)
+
+swap tail                    	:	0.02649	(240251/9070724)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           16974	            8984
+number particles                 	:	           16974	            8984
+diagonal fraction                	:	           16974	           16974
+radial density                   	:	           16974	            8984
+static structure factor gpu      	:	           16974	            8984
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30716
+
+center of mass               	:	0.50745	(1023913/2017777)
+
+bisection                    	:	0.81977	(31851670/38854332)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00123	(12698/10318392)
+open         Level 2         	:	0.00223	(23234/10427636)
+open         Level 3         	:	0.00277	(58192/21025824)
+open                         	:	0.00225	(94124/41771852)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99717	(12699/12735)
+close        Level 2         	:	0.96876	(23070/23814)
+close        Level 3         	:	0.87796	(58328/66436)
+close                        	:	0.91370	(94097/102985)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00836	(88943/10641105)
+insert       Level 2         	:	0.00721	(76739/10642239)
+insert       Level 3         	:	0.00641	(136504/21284529)
+insert                       	:	0.00710	(302186/42567873)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(88923/88923)
+remove       Level 2         	:	1.00000	(76950/76950)
+remove       Level 3         	:	0.99852	(136340/136542)
+remove                       	:	0.99933	(302213/302415)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83536	(1535405/1838017)
+advance head Level 2         	:	0.69648	(1279879/1837627)
+advance head Level 3         	:	0.53934	(1983831/3678268)
+advance head                 	:	0.65259	(4799115/7353912)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84012	(1536301/1828662)
+recede head  Level 2         	:	0.70490	(1280601/1816723)
+recede head  Level 3         	:	0.54928	(1981840/3608095)
+recede head                  	:	0.66158	(4798742/7253480)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84130	(1538779/1829056)
+advance tail Level 2         	:	0.70628	(1282908/1816423)
+advance tail Level 3         	:	0.55183	(1991937/3609681)
+advance tail                 	:	0.66348	(4813624/7255160)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83630	(1538303/1839421)
+recede tail  Level 2         	:	0.69840	(1284741/1839542)
+recede tail  Level 3         	:	0.54122	(1989899/3676697)
+recede tail                  	:	0.65432	(4812943/7355660)
+
+swap head                    	:	0.02699	(256884/9517702)
+
+swap tail                    	:	0.02684	(255377/9513989)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17362	            9020
+number particles                 	:	           17362	            9020
+diagonal fraction                	:	           17362	           17362
+radial density                   	:	           17362	            9020
+static structure factor gpu      	:	           17362	            9020
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.30821
+
+center of mass               	:	0.50673	(1014643/2002317)
+
+bisection                    	:	0.81959	(31652634/38620240)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00124	(12592/10186219)
+open         Level 2         	:	0.00219	(22533/10287419)
+open         Level 3         	:	0.00276	(57301/20752503)
+open                         	:	0.00224	(92426/41226141)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99575	(12411/12464)
+close        Level 2         	:	0.96707	(22614/23384)
+close        Level 3         	:	0.87394	(57287/65550)
+close                        	:	0.91039	(92312/101398)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00831	(87353/10507566)
+insert       Level 2         	:	0.00721	(75758/10506656)
+insert       Level 3         	:	0.00638	(134114/21012537)
+insert                       	:	0.00707	(297225/42026759)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(87166/87166)
+remove       Level 2         	:	1.00000	(75815/75815)
+remove       Level 3         	:	0.99863	(134358/134542)
+remove                       	:	0.99938	(297339/297523)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83652	(1539539/1840408)
+advance head Level 2         	:	0.69761	(1285016/1842017)
+advance head Level 3         	:	0.54012	(1989574/3683545)
+advance head                 	:	0.65356	(4814129/7365970)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.83993	(1538657/1831891)
+recede head  Level 2         	:	0.70493	(1284860/1822687)
+recede head  Level 3         	:	0.54907	(1989147/3622725)
+recede head                  	:	0.66133	(4812664/7277303)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84023	(1538484/1831020)
+advance tail Level 2         	:	0.70488	(1286166/1824650)
+advance tail Level 3         	:	0.54954	(1989557/3620383)
+advance tail                 	:	0.66165	(4814207/7276053)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83620	(1539555/1841133)
+recede tail  Level 2         	:	0.69736	(1285029/1842707)
+recede tail  Level 3         	:	0.53987	(1989913/3685898)
+recede tail                  	:	0.65328	(4814497/7369738)
+
+swap head                    	:	0.02653	(253100/9541198)
+
+swap tail                    	:	0.02679	(255505/9537951)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17262	            8916
+number particles                 	:	           17262	            8916
+diagonal fraction                	:	           17262	           17262
+radial density                   	:	           17262	            8916
+static structure factor gpu      	:	           17262	            8916
+
+---------- End Estimator Data ------------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.31088
+
+center of mass               	:	0.50744	(1037625/2044834)
+
+bisection                    	:	0.81992	(32287146/39378611)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00122	(12506/10257595)
+open         Level 2         	:	0.00217	(22466/10367366)
+open         Level 3         	:	0.00277	(57957/20887476)
+open                         	:	0.00224	(92929/41512437)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99688	(12454/12493)
+close        Level 2         	:	0.96614	(22486/23274)
+close        Level 3         	:	0.87447	(58007/66334)
+close                        	:	0.91034	(92947/102101)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00841	(88952/10572395)
+insert       Level 2         	:	0.00731	(77294/10575132)
+insert       Level 3         	:	0.00644	(136287/21146359)
+insert                       	:	0.00715	(302533/42293886)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(88861/88861)
+remove       Level 2         	:	1.00000	(77360/77360)
+remove       Level 3         	:	0.99840	(136294/136513)
+remove                       	:	0.99928	(302515/302734)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.83736	(1593302/1902773)
+advance head Level 2         	:	0.70013	(1335036/1906834)
+advance head Level 3         	:	0.54283	(2066372/3806647)
+advance head                 	:	0.65580	(4994710/7616254)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.84215	(1593976/1892738)
+recede head  Level 2         	:	0.70738	(1333815/1885569)
+recede head  Level 3         	:	0.55288	(2067690/3739841)
+recede head                  	:	0.66446	(4995481/7518148)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.84140	(1592866/1893118)
+advance tail Level 2         	:	0.70559	(1329801/1884658)
+advance tail Level 3         	:	0.55112	(2062034/3741521)
+advance tail                 	:	0.66292	(4984701/7519297)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.83659	(1593098/1904265)
+recede tail  Level 2         	:	0.69832	(1330817/1905745)
+recede tail  Level 3         	:	0.54134	(2062589/3810144)
+recede tail                  	:	0.65438	(4986504/7620154)
+
+swap head                    	:	0.02666	(262931/9864075)
+
+swap tail                    	:	0.02667	(263234/9868234)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           17602	            8958
+number particles                 	:	           17602	            8958
+diagonal fraction                	:	           17602	           17602
+radial density                   	:	           17602	            8958
+static structure factor gpu      	:	           17602	            8958
+
+---------- End Estimator Data ------------------

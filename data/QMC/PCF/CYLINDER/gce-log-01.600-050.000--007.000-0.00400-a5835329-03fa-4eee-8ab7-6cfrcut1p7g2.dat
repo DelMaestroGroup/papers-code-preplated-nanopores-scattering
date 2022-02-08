@@ -1,0 +1,124 @@
+# PIMCID: a5835329-03fa-4eee-8ab7-6cfrcut1p7g2
+
+# ./pimc.e -u -7.000000000000000e+00 -p 007 -T 1.6 -L 50 -n 0.016 -t 0.004 -b cylinder -M 8 -r 15.51 -I aziz -X plated_lj_tube -E 1000 -S 5000 -l 7 --lj_width=3.76 --lj_sigma=3.0225 --lj_epsilon=36.13613 --lj_density=0.017 --relax -W 167 -C 2.000000000000000e-01 -D 2.758534657605148e-01 -w 1.7 --label=rcut1p7g2 -R a5835329-03fa-4eee-8ab7-6cfrcut1p7g2 --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --estimator="radial density" --estimator="pair correlation function" --estimator="cylinder energy" --estimator="cylinder number particles" --estimator="cylinder pair correlation function" --estimator="cylinder static structure factor" 
+
+---------- Begin Simulation Parameters ----------
+
+Command String          	:	./pimc.e -u -7.0 -p 7 -T 1.6 -L 50 -n 0.016 -t 0.004 -b cylinder -M 8 -r 15.51 -I aziz -X plated_lj_tube -E 1000 -S 5000 -l 7 --lj_width=3.76 --lj_sigma=3.0225 --lj_epsilon=36.13613 --lj_density=0.017 --relax -W 167 -C 2.000000000000000e-01 -s ./Input/gce-state-01.600-050.000--007.000-0.00400-00b11b91-37b1-41db-9270-acd2a4e282e7.dat -D 2.758534657605148e-01 --estimator=energy --estimator="number particles" --estimator="diagonal fraction" --estimator="radial density" --estimator="pair correlation function" --estimator="cylinder energy" --estimator="cylinder number particles" --estimator="cylinder pair correlation function" --estimator="cylinder static structure factor" -w 1.7 --label=rcut1p7g2 
+Ensemble                	:	grand canonical
+Simulation Type         	:	PIMC
+Action Type             	:	gsf
+Number of paths         	:	1
+Interaction Potential   	:	aziz
+External Potential      	:	plated_lj_tube
+Plating Radial Width    	:	3.76000e+00 
+Plating LJ Sigma        	:	3.02250e+00 
+Plating LJ Epsilon      	:	3.61361e+01 
+Plating LJ Density      	:	1.70000e-02 
+Temperature             	:	1.60000
+Chemical Potential      	:	-7.00000
+Particle Mass           	:	4.00300
+Number Time Slices      	:	156
+Specified Imaginary Time Step	:	0.00400
+Imaginary Time Step     	:	0.00401
+Imaginary Time Length   	:	0.62500
+Initial Number Particles	:	604
+Initial Density         	:	0.01598
+Num. Broken World-lines 	:	0
+Container Type          	:	Cylinder
+Container Dimensions    	:	31.02000 x 31.02000 x 50.00000
+Container Volume        	:	37787.09215
+Lookup Table            	:	4 x 4 x 7
+Maximum Winding Sector  	:	1
+Initial Worm Constant   	:	0.20000
+Worm Constant           	:	0.20000
+Initial CoM Delta       	:	0.27585
+CoM Delta               	:	0.27585
+Bisection Parameter     	:	3
+Update Length           	:	8
+Potential Cutoff Length 	:	7.00000
+Bin Size                	:	100
+Number EQ Steps         	:	1000
+Number Bins Stored      	:	5000
+Random Number Seed      	:	139860
+Virial Window           	:	5
+
+---------- End Simulation Parameters ------------
+
+
+---------- Begin Acceptance Data ---------------
+
+Total Rate                   	:	0.15328
+
+center of mass               	:	0.38013	(2623515/6901599)
+
+bisection                    	:	0.74892	(98206130/131129610)
+
+open         Level 0         	:	0.00000	(0/0)
+open         Level 1         	:	0.00150	(97744/65142764)
+open         Level 2         	:	0.00199	(131272/65896838)
+open         Level 3         	:	0.00153	(203142/132766892)
+open                         	:	0.00164	(432158/263806494)
+
+close        Level 0         	:	0.00000	(0/0)
+close        Level 1         	:	0.99352	(97640/98277)
+close        Level 2         	:	0.93325	(131733/141155)
+close        Level 3         	:	0.74902	(202731/270661)
+close                        	:	0.84711	(432104/510093)
+
+insert       Level 0         	:	0.00000	(0/0)
+insert       Level 1         	:	0.00051	(34178/66777243)
+insert       Level 2         	:	0.00021	(13880/66749772)
+insert       Level 3         	:	0.00008	(11237/133523423)
+insert                       	:	0.00022	(59295/267050438)
+
+remove       Level 0         	:	0.00000	(0/0)
+remove       Level 1         	:	1.00000	(34325/34325)
+remove       Level 2         	:	0.99993	(13863/13864)
+remove       Level 3         	:	0.89388	(11161/12486)
+remove                       	:	0.97815	(59349/60675)
+
+advance head Level 0         	:	0.00000	(0/0)
+advance head Level 1         	:	0.59546	(252605/424221)
+advance head Level 2         	:	0.34235	(145043/423674)
+advance head Level 3         	:	0.15315	(129515/845666)
+advance head                 	:	0.31127	(527163/1693561)
+
+recede head  Level 0         	:	0.00000	(0/0)
+recede head  Level 1         	:	0.60041	(251935/419603)
+recede head  Level 2         	:	0.34629	(144739/417972)
+recede head  Level 3         	:	0.15561	(129550/832548)
+recede head                  	:	0.31508	(526224/1670123)
+
+advance tail Level 0         	:	0.00000	(0/0)
+advance tail Level 1         	:	0.59946	(251565/419650)
+advance tail Level 2         	:	0.34731	(145021/417559)
+advance tail Level 3         	:	0.15663	(130310/831983)
+advance tail                 	:	0.31566	(526896/1669192)
+
+recede tail  Level 0         	:	0.00000	(0/0)
+recede tail  Level 1         	:	0.59516	(252436/424147)
+recede tail  Level 2         	:	0.34082	(144367/423592)
+recede tail  Level 3         	:	0.15369	(130155/846857)
+recede tail                  	:	0.31096	(526958/1694596)
+
+swap head                    	:	0.04648	(59390/1277702)
+
+swap tail                    	:	0.04681	(59792/1277331)
+
+---------- End Acceptance Data -----------------
+
+
+---------- Begin Estimator Data ----------------
+
+energy                           	:	           57600	           55731
+number particles                 	:	           57600	           55731
+diagonal fraction                	:	           57600	           57600
+radial density                   	:	           57600	           55731
+pair correlation function        	:	           57600	           55731
+cylinder energy                  	:	           57600	           55731
+cylinder number particles        	:	           57600	           55731
+cylinder pair correlation function	:	          115200	           55731
+cylinder static structure factor 	:	          115200	           55731
+
+---------- End Estimator Data ------------------
