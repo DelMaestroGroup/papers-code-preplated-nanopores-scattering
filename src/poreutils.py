@@ -46,7 +46,7 @@ def get_masked_palette(cpt_file, over_color='w', under_color='k'):
 
 # -------------------------------------------------------------------------------
 def get_props(c, ls='None'):
-    return {'mec':c, 'ls':ls, 'ecolor':colortools.get_alpha_hex(c,0.5,real=True), 'marker':'o', 'mfc':colortools.get_alpha_hex(c,0.5,real=True), 
+    return {'mec':c, 'ls':ls, 'ecolor':c, 'marker':'o', 'mfc':colortools.get_alpha_hex(c,0.5,real=True), 
             'color':c}
 
 # -------------------------------------------------------------------------------
