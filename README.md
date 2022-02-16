@@ -1,5 +1,11 @@
 <!--[![Paper](https://img.shields.io/badge/paper-arXiv%3AXXXX.YYYYY-B31B1B.svg)](https://arxiv.org/abs/XXXX.YYYYY) -->
 
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6112399.svg)](https://doi.org/10.5281/zenodo.6112399)
+
+
+
 # Experimental Realization of One Dimensional Helium
 Adrian Del Maestro, Nathan S. Nichols, Timothy R. Prisk, Garfield Warren, Paul E. Sokol
 
