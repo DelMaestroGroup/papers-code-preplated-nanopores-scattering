@@ -1,14 +1,15 @@
 # required packages
+scipy
 heprops
 spens
 matplotlib
 numpy
-scipy
 lmfit
 pynverse
 mpmath
+jupyterlab
+zenodo_get
 
 ## Installed from git
 git+git://github.com/DelMaestroGroup/dgutils.git#egg=dgutils
 git+git://github.com/DelMaestroGroup/pimcscripts.git#egg=pimcscripts
-git+git://github.com/shaharkadmiel/cmaptools.git#egg=cmaptools
