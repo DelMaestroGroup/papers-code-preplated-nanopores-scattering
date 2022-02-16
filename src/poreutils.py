@@ -22,7 +22,7 @@ dblue = '#0f06b4'
 purple = '#090076'
 
 pore_colors = {'μ = -7.0 K':lblue,'μ = -19.0 K':green, 'μ = -27.0 K':orange, 'μ = -47.0 K':red}
-pore_labels = {'μ = -7.0 K':'full','μ = -19.0 K':'3 shells', 'μ = -27.0 K':'2 shells', 'μ = -47.0 K':'1 shell'}
+pore_labels = {'μ = -7.0 K':'full','μ = -19.0 K':'3 layers', 'μ = -27.0 K':'2 layers', 'μ = -47.0 K':'1 layer'}
 
 # setup a possible custom font path
 font_path,bold_font_path = '.','.'
@@ -74,9 +74,10 @@ def g2_LL_TL(z,ρₒ,L,T,K,v,A):
     q = np.exp(-π*v/(L*T))
     
     θ1 = np.frompyfunc(lambda n,z,q,p: mp.jtheta(n,z,q,derivative=p), 4,1)
+    
     t1 = (π/L)**2 * ( θ1(1,z̄,q,2)/θ1(1,z̄,q,0) - θ1(1,z̄,q,1)/θ1(1,z̄,q,0)**2 )
     t2 = float(2*mp.eta(1j*v/(L*T)).real)*np.exp(-π*v/(6.0*L*T)) / θ1(1,z̄,q,0)
-    
+
     return np.array(1.0 + K/(2*π**2*ρₒ**2)*t1 +(A/ρₒ**2)*t2**(2*K)*np.cos(2*π*ρₒ*z), dtype=float)
 
 # -------------------------------------------------------------------------------
