@@ -18,7 +18,9 @@ The data in this project was generated via experimental neutron scattering and q
 
 1. A minimal environment to execute these notebooks can be installed via
 
-    pip install -r requirements.txt
+<code>
+pip install -r requirements.txt
+</code>
 
 2. For plotting a single package `cmaptools` must be installed by hand.  See instructions [here](https://github.com/shaharkadmiel/cmaptools).
 
@@ -31,8 +33,21 @@ The creation of these materials was supported in part by the National Science Fo
 
 ### Figures
 
-#### Figure 01: Figure Name
+#### Figure 1: Adsorption and structure inside nanopores 
 <img src="https://github.com/DelMaestroGroup/papers-code-preplated-nanopores-scattering/blob/71f0fe1747ae45510ad7be02f20f7d895e203596/figures/He_Ar_MCM41_isotherm_radial.png" width="400px">
+
+#### Figure 2: Elastic scattering from <sup>4</sup>He confined inside MCM-41 
+<img src="https://github.com/DelMaestroGroup/papers-code-preplated-nanopores-scattering/blob/090a905d98b83e22c98dba1ec171f0d6048c069f/figures/SQ_exp_theory.svg" width="400px">
+
+#### Figure 3: Inelastic scattering of a one-dimensional quantum liquid
+
+<img src="https://github.com/DelMaestroGroup/papers-code-preplated-nanopores-scattering/blob/8b96c66893cf370301410c9863b3400dbb255dfa/figures/SQE_exp_theory_vert.svg" width="400px">
+
+#### Figure 4: Energy and temperature dependence of the inelastic scattering branch 
+<img src="https://github.com/DelMaestroGroup/papers-code-preplated-nanopores-scattering/blob/8b96c66893cf370301410c9863b3400dbb255dfa/figures/LL_fit_Qinc_T_dep.svg" width="400px">
+
+#### Figure S1: Elastic scattering from confined helium: raw data 
+<img src="https://github.com/DelMaestroGroup/papers-code-preplated-nanopores-scattering/blob/8b96c66893cf370301410c9863b3400dbb255dfa/figures/exp_elastic_scattering.svg" width="400px">
 
 <!-- This figure is released under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) and can be freely copied, redistributed and remixed. -->
 
